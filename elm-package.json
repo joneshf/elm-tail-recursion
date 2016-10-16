@@ -1,0 +1,16 @@
+{
+    "version": "1.0.0",
+    "summary": "Package to help mitigate run-time exceptions from recursion",
+    "repository": "https://github.com/joneshf/elm-tail-recursion.git",
+    "license": "BSD3",
+    "source-directories": [
+        "src"
+    ],
+    "exposed-modules": [
+        "TailRecursion"
+    ],
+    "dependencies": {
+        "elm-lang/core": "4.0.5 <= v < 5.0.0"
+    },
+    "elm-version": "0.17.1 <= v < 0.18.0"
+}

@@ -190,7 +190,7 @@ Some explanation for how this works.
 Thanks to purity and fast-and-loose reasoning,
 we have exactly one way to implement this function.
 
-The only way to get a `b` is to apply an `a` to `a -> Result a b`.
+The only way to get a `b` is to apply an `a` to `a -> Result b a`.
 If the result of application is `Ok a`,
 we still don't have a `b` and must apply this new `a` to `a -> Result a b`.
 At some point we get a value `Err b`, and thus we can finally end the recursion.

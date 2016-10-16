@@ -46,7 +46,7 @@ We can help a bit by extracting the recursive part to a function that guarantees
 You may still run out of memory; but, that's a separate concern that this library doesn't handle.
 You also may still have unbounded recursion; but, again, that's a separate concern that this library doesn't handle.
 
-The takeaway is that recursion is not your enemy.
+The takeaway is that recursion is not your enemy and neither is unbounded recursion.
 Non-tail recursive recursion is your enemy—currently anyway.
 
 [crash]: http://package.elm-lang.org/packages/elm-lang/core/4.0.5/Debug#crash

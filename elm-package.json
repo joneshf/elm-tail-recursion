@@ -1,5 +1,5 @@
 {
-    "version": "1.0.2",
+    "version": "1.0.3",
     "summary": "Package to help mitigate run-time exceptions from recursion",
     "repository": "https://github.com/joneshf/elm-tail-recursion.git",
     "license": "BSD3",

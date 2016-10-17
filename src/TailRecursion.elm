@@ -233,6 +233,10 @@ Now if we apply `1000000` to `even`, we'll actually get a value, rather than a r
 If you have a non-tail recursive function,
 use this function to ensure it won't blow the stack.
 
+## &#x26a0; &#x26a0; &#x26a0;
+This guarantee only holds if the function you pass in does not grow the stack.
+## &#x26a0; &#x26a0; &#x26a0;
+
 ```elm
 collatz : Int -> Result Int Int
 collatz n =

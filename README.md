@@ -49,4 +49,10 @@ You also may still have unbounded recursion; but, again, that's a separate conce
 The takeaway is that recursion is not your enemy and neither is unbounded recursion.
 Non-tail recursive recursion is your enemy—currently anyway.
 
+## Credit
+
+This library is heavily based on [purescript-tailrec][purescript-tailrec] and this wonderful [paper][paper] on stack safety by Phil Freeman.
+
 [crash]: http://package.elm-lang.org/packages/elm-lang/core/4.0.5/Debug#crash
+[paper]: http://functorial.com/stack-safety-for-free/index.pdf
+[purescript-tailrec]: https://pursuit.purescript.org/packages/purescript-tailrec/2.0.0
